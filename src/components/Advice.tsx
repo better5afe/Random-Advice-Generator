@@ -20,7 +20,7 @@ const Advice = () => {
 	}, []);
 
 	return (
-		<div className='advice relative flex flex-col items-center w-[300px] p-8 bg-darkGrayishBlue rounded-lg text-center sm:w-[350px] md:w-[700px]'>
+		<div className='advice relative flex flex-col items-center w-[300px] p-8 bg-darkGrayishBlue rounded-lg text-center sm:w-[350px] md:w-[500px] md:pt-14'>
 			{advice.isLoading && <Loader className='loader' />}
 			{!advice.isLoading && (
 				<>
