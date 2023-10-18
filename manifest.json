@@ -1,0 +1,6 @@
+{
+  "short_name": "Advice Generator",
+  "name": "Advice Generator",
+  "start_url": ".",
+  "display": "standalone"
+}
